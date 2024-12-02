@@ -12,7 +12,6 @@ body {
 
 .nav img {
   height: 50px;
-
   width: 100%;
 }
 .navbar ul {
@@ -85,13 +84,12 @@ body {
 }
 .app {
   display: flex;
+  overflow: hidden;
 }
 .apps {
-  margin-left: 80px;
-  margin-top: 20px;
   padding: 7px;
   width: 200px;
-  height: 385px;
+  height: 380px;
   background-color: white;
   border-radius: 3px;
 }
@@ -113,20 +111,19 @@ body {
   color: #f68b1b;
 }
 .mm {
-  width: 300px;
   height: 300px;
-  margin-left: 30px;
-  margin-top: 20px;
+}
+.section-1 {
+  margin: auto;
+  width: 1000px;
+  background-color: #fff;
 }
 .section-2 {
-  display: flex;
-  justify-content: center;
+  margin: 20px;
 }
 .photos {
-  margin: 20px;
-  margin-left: 50px;
-  background-position: center;
-  width: max-content;
+  margin: auto;
+  width: 1000px;
   height: 170px;
   background-color: #fff;
   border-radius: 5px;
@@ -165,29 +162,27 @@ body {
   border-radius: 4px;
 }
 .title-1 {
-  width: 100%;
+  margin: auto;
+  width: 1200px;
 }
 
 .pic {
   padding: 12px;
 }
 .pic1 {
-  margin: 5px;
-  justify-content: center;
-  align-items: center;
-  width: 900px;
-  margin-left: 80px;
+  margin: auto;
+  width: 1000px;
   display: flex;
-  background-color: white;
+  background-color: #fff;
 }
 .pic1 img {
   display: flex;
   justify-content: center;
-  width: 450px;
+  width: 500px;
   padding: 10px;
 }
 .pic2 {
-  margin: 20px;
+  margin: auto;
   justify-content: center;
   align-items: center;
   width: 900px;
@@ -202,8 +197,10 @@ body {
   padding: 10px;
 }
 .volt {
-  width: 100%;
   margin: auto;
+  padding: 20px;
+  width: 1220px;
+ 
 }
 .volt-3 {
   width: 84%;
@@ -241,15 +238,14 @@ body {
 }
 .we-1 {
   margin: auto;
-  width: max-content;
+  width: 1000px;
   border-radius: 15px;
   background-color: #ffffff;
   margin-top: 10px;
 }
-
 .we-2 img {
   margin: auto;
-  width: 900px;
+  width: 1000px;
   height: 300px;
   display: flex;
   padding-top: 15px;
@@ -257,12 +253,11 @@ body {
 }
 .orange {
   padding-bottom: 80px;
+  
 }
-
 .orange-1 {
-  width: max-content;
+  width: 1000px;
   margin: auto;
-
   border-radius: 15px;
   background-color: #f0dcc2;
   margin-top: 10px;
@@ -277,10 +272,8 @@ body {
 .orange-3 {
   background-color: #ffffff;
 }
-
 .orange-2 {
   padding: 10px;
-
   margin: auto;
   width: 900px;
   height: 250px;
@@ -288,8 +281,9 @@ body {
 }
 footer {
   background-color: rgb(35, 34, 34);
-  width: 100%;
-  height: 100vh;
+  margin: auto;
+  width: 1000px;
+  height: 500px;
   margin: auto;
 }
 .sora {
